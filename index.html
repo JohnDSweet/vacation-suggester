@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Suggester</title>
+  </head>
+  <body>
+    <div class="container card">
+      <div class="jumbotron">
+        <h1>Need help picking a vaction? We can help!</h1>
+        <form id="quiz">
+          <div class="row">
+            <div class="col-md-6 center white">
+              <div class="form-group name">
+                <label for="name">What is your name?</label>
+                <input type="text" id="name" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="input1">What climate do you like?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="temp" value="hot" checked>
+                    Some like it hot!
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="temp" value="warm">
+                    What ever.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="temp" value="cold">
+                    Give me that crisp winter air!
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="input2">How active are you?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="active" value="very" checked>
+                    Up for anything!
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="active" value="some">
+                    Let's keep it healthy.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="active" value="lazy">
+                    I'm up for a nap.
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="input2">What is your budget?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="budget" value="rich" checked>
+                    Rolling in dough!
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="budget" value="avg">
+                    Let's be reasonable.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="budget" value="poor">
+                    I've got room on my credit card.
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="input2">How long do you have?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="time" value="long" checked>
+                    I'll stay til I'm done!
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="time" value="avg">
+                    A week or two max.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="time" value="short">
+                    Just a few days.
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="input2">Do you have kids?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="kids" value="yes" checked>
+                    Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="kids" value="no">
+                    No
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-info">Here we go!</button>
+        </form>
+        &ensp;
+        <div  class="container card answer">
+          <h1><span id="output"></span></h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

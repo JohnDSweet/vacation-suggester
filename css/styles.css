@@ -1,0 +1,40 @@
+
+
+.container {
+  width:100%;
+  background-color:grey;
+  margin: 20px;
+  margin-left: 30px;
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+/* label {
+    float: left
+} */
+span {
+    display: block;
+    overflow: hidden;
+    padding: 0 4px 0 6px
+}
+
+div {
+  padding-bottom: 5px;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+.answer {
+  width: 90%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display:none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.name {
+  width: 250px;
+}

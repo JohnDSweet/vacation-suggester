@@ -30,11 +30,23 @@ button {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  display:none;
+  /* display:none; */
   background: transparent;
   box-shadow: none;
 }
 
 .name {
   width: 250px;
+}
+
+.output1 {
+  display: none;
+}
+
+.output2 {
+    display: none;
+}
+
+.jumbotron {
+  height: 900px;
 }

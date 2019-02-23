@@ -14,18 +14,6 @@ Create a webpage (using HTML, CSS, JavaScript and jQuery) where a user can answe
 * Offer a minimum of 3 vacation destination suggestions.
 * Don't forget your Git commits AND README.
 
-### Requirements for your page:
-
-* Your name
-* An image of you or something that represents who you are
-* A list of projects you have created with active links to them (either on GitHub or GitHub pages)
-* For each, include a brief description of the project and what languages it uses
-* An “About Me” section
-* Include your background (education, job experience, or why did you decide to take a class on programming, etc)
-* Your current interests/hobbies/skills
-* Create a gh-pages branch so that you site can be viewed on GitHub Pages at your-username.github.io/portfolio (for example).
-* Don't forget your Git commits and include a README in your GitHub repository!
-
 ### Objectives
 Your code will be reviewed for the following objectives:
 
@@ -44,8 +32,11 @@ Your code will be reviewed for the following objectives:
   * copyright and license information
   * link to project on GitHub Pages
 
-### Github repository
-[https://github.com/JohnDSweet/vacation-suggester] (https://github.com/JohnDSweet/vacation-suggester) 
+### GitHub Repository
+https://github.com/JohnDSweet/vacation-suggester
+
+### GitHub Pages
+https://johndsweet.github.io/vacation-suggester/
 
 ### Copyright: John Sweet, 2019
 
